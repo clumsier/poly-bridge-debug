@@ -374,10 +374,10 @@
   dependencies:
     web3 "^1.6.0"
 
-"@maticnetwork/maticjs@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/@maticnetwork/maticjs/-/maticjs-3.3.0.tgz#8775866d3e583377082af669f65d8236a0e3f493"
-  integrity sha512-ZU2eNoFzWBKOS/Urd9cAIY76AJUt/Ts6HCG3YDahs02YWlRQUI022IQr9v78edoxiVY2etguV6zNWmo+IPxvjQ==
+"@maticnetwork/maticjs@^3.4.0-beta.0":
+  version "3.4.0-beta.0"
+  resolved "https://registry.yarnpkg.com/@maticnetwork/maticjs/-/maticjs-3.4.0-beta.0.tgz#14e1ef06c8f5d61cd1769c307cca6bb10bcc8b9a"
+  integrity sha512-BaMhryIS79SnHldRVw5uoAkjBrdJCOxlWOBLhdNfK5jcDLXRolS+MUGSbUEXOX/wrjVBsDCZPUy0bb9ZScTdww==
   dependencies:
     "@ethereumjs/block" "^3.6.2"
     ethereumjs-util "^7.1.4"
@@ -1942,6 +1942,14 @@ is-weakref@^1.0.2:
   dependencies:
     call-bind "^1.0.2"
 
+isomorphic-unfetch@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/isomorphic-unfetch/-/isomorphic-unfetch-3.1.0.tgz#87341d5f4f7b63843d468438128cb087b7c3e98f"
+  integrity sha512-geDJjpoZ8N0kWexiwkX8F9NkTsXhetLPVbZFQ+JTW239QNOwvB0gniuR1Wc6f0AMTn7/mFGyXvHTifrCp/GH8Q==
+  dependencies:
+    node-fetch "^2.6.1"
+    unfetch "^4.2.0"
+
 isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
@@ -3117,6 +3125,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+unfetch@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/unfetch/-/unfetch-4.2.0.tgz#7e21b0ef7d363d8d9af0fb929a5555f6ef97a3be"
+  integrity sha512-F9p7yYCn6cIW9El1zi0HI6vqpeIvBsr3dSuRO6Xuppb1u5rXpCPmMvLSyECLhybr9isec8Ohl0hPekMVrEinDA==
 
 universalify@^0.1.0:
   version "0.1.2"
